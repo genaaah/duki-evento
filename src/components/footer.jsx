@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-teal-600 to-teal-800">
+    <footer className="bg-gradient-to-r from-purple-600 to-purple-900">
       <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="flex justify-center">
           <a className="title-font mb-4 flex items-center font-medium text-gray-900 md:mb-0">
@@ -28,7 +28,7 @@ export default function Footer() {
         <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
           <li>
             <a
-              className="text-gray-200 transition hover:text-teal-300"
+              className="text-gray-200 transition hover:text-purple-300"
               href="/"
             >
               {" "}
@@ -38,7 +38,7 @@ export default function Footer() {
 
           <li>
             <a
-              className="text-gray-200 transition hover:text-teal-300"
+              className="text-gray-200 transition hover:text-purple-300"
               href="/"
             >
               {" "}
@@ -48,7 +48,7 @@ export default function Footer() {
 
           <li>
             <a
-              className="text-gray-200 transition hover:text-teal-300"
+              className="text-gray-200 transition hover:text-purple-300"
               href="/"
             >
               {" "}
@@ -58,7 +58,7 @@ export default function Footer() {
 
           <li>
             <a
-              className="text-gray-200 transition hover:text-teal-300"
+              className="text-gray-200 transition hover:text-purple-300"
               href="/"
             >
               {" "}
@@ -73,7 +73,7 @@ export default function Footer() {
               href="/"
               rel="noreferrer"
               target="_blank"
-              className="text-gray-800 transition hover:text-teal-300"
+              className="text-gray-800 transition hover:text-purple-300"
             >
               <span className="sr-only">Facebook</span>
               <svg
@@ -96,7 +96,7 @@ export default function Footer() {
               href="/"
               rel="noreferrer"
               target="_blank"
-              className="text-gray-800 transition hover:text-teal-300"
+              className="text-gray-800 transition hover:text-purple-300"
             >
               <span className="sr-only">Instagram</span>
               <svg
@@ -119,7 +119,7 @@ export default function Footer() {
               href="/"
               rel="noreferrer"
               target="_blank"
-              className="text-gray-800 transition hover:text-teal-300"
+              className="text-gray-800 transition hover:text-purple-300"
             >
               <span className="sr-only">Twitter</span>
               <svg

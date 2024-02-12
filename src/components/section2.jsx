@@ -16,7 +16,7 @@ export default function Section2() {
           <div className="mt-4 sm:mt-8">
             <a
               href="#"
-              className="inline-block rounded-full bg-teal-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-teal-800 focus:outline-none focus:ring focus:ring-yellow-400"
+              className="inline-block rounded-full bg-purple-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-purple-800 focus:outline-none focus:ring focus:ring-yellow-400"
             >
               Go
             </a>

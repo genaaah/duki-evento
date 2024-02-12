@@ -3,7 +3,7 @@ export default function Section1() {
     <section>
       <div className="mx-auto max-w-screen-2xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-          <div className="bg-gradient-to-r from-teal-400 to-teal-700 p-8 md:p-12 lg:px-16 lg:py-24">
+          <div className="bg-gradient-to-r from-purple-400 to-purple-800 p-8 md:p-12 lg:px-16 lg:py-24">
             <div className="mx-auto  max-w-xl text-center py-16">
               <h2 className="text-2xl font-bold text-white md:text-3xl">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit
@@ -19,7 +19,7 @@ export default function Section1() {
               <div className="mt-4 md:mt-8">
                 <a
                   href="#"
-                  className="inline-block rounded border border-white bg-white px-12 py-3 text-sm font-medium text-teal-600 transition hover:bg-transparent hover:text-white focus:outline-none focus:ring focus:ring-yellow-400"
+                  className="inline-block rounded border border-white bg-white px-12 py-3 text-sm font-medium text-purple-600 transition hover:bg-transparent hover:text-white focus:outline-none focus:ring focus:ring-yellow-400"
                 >
                   Contact
                 </a>

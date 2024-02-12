@@ -5,7 +5,7 @@ export default function Banner() {
         <div className="mx-auto max-w-xl text-center">
           <h1 className="text-3xl text-gray-200 font-extrabold sm:text-5xl">
             Ticket Sale.
-            <strong className="font-extrabold text-teal-600 sm:block">
+            <strong className="font-extrabold text-purple-600 sm:block">
               {" "}
               Get Your Tickets.{" "}
             </strong>
@@ -18,14 +18,14 @@ export default function Banner() {
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
-              className="block w-full rounded bg-teal-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-teal-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto"
+              className="block w-full rounded bg-purple-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-purple-800 focus:outline-none focus:ring active:bg-purple-500 sm:w-auto"
               href="#"
             >
               Contact
             </a>
 
             <a
-              className="block w-full bg-gray-300 rounded px-12 py-3 text-sm font-medium text-teal-700 shadow hover:text-teal-800 focus:outline-none focus:ring active:text-red-500 sm:w-auto"
+              className="block w-full bg-gray-300 rounded px-12 py-3 text-sm font-medium text-purple-700 shadow hover:text-purple-900 focus:outline-none focus:ring active:text-purple-500 sm:w-auto"
               href="#"
             >
               Learn More

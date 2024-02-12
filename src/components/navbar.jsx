@@ -9,13 +9,13 @@ export default function Navbar() {
         </a>
 
         <nav className="hidden md:flex space-x-6 items-center">
-          <a href="#" className="text-gray-500 hover:text-teal-600 transition">
+          <a href="#" className="text-gray-500 hover:text-purple-600 transition">
             About
           </a>
-          <a href="#" className="text-gray-500 hover:text-teal-600 transition">
+          <a href="#" className="text-gray-500 hover:text-purple-600 transition">
             Services
           </a>
-          <a href="#" className="text-gray-500 hover:text-teal-600 transition">
+          <a href="#" className="text-gray-500 hover:text-purple-600 transition">
             Projects
           </a>
         </nav>
@@ -24,13 +24,13 @@ export default function Navbar() {
           <div className="sm:flex sm:space-x-4">
             <a
               href="#"
-              className="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
+              className="block rounded-md bg-purple-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-purple-700"
             >
               Login
             </a>
             <a
               href="#"
-              className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block"
+              className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-purple-600 transition hover:text-gray-600/75 sm:block"
             >
               Register
             </a>

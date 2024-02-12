@@ -3,10 +3,10 @@ export default function Section3() {
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h2 className="text-xs text-teal-800 tracking-widest font-medium title-font mb-1">
+          <h2 className="text-xs text-purple-800 tracking-widest font-medium title-font mb-1">
             NEXT
           </h2>
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-teal-600">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-purple-600">
           FOLLOWING DATE
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -25,7 +25,7 @@ export default function Section3() {
               Fingerstache flexitarian street art 8-bit waistcoat. Distillery
               hexagon disrupt edison bulbche.
             </p>
-            <a className="text-teal-600 hover:text-teal-800 inline-flex cursor-pointer items-center">
+            <a className="text-purple-600 hover:text-purple-800 inline-flex cursor-pointer items-center">
               Learn More
               <svg
                 fill="none"
@@ -48,7 +48,7 @@ export default function Section3() {
               Fingerstache flexitarian street art 8-bit waistcoat. Distillery
               hexagon disrupt edison bulbche.
             </p>
-            <a className="text-teal-600 hover:text-teal-800 inline-flex cursor-pointer items-center">
+            <a className="text-purple-600 hover:text-purple-800 inline-flex cursor-pointer items-center">
               Learn More
               <svg
                 fill="none"
@@ -71,7 +71,7 @@ export default function Section3() {
               Fingerstache flexitarian street art 8-bit waistcoat. Distillery
               hexagon disrupt edison bulbche.
             </p>
-            <a className="text-teal-600 hover:text-teal-800 inline-flex cursor-pointer items-center">
+            <a className="text-purple-600 hover:text-purple-800 inline-flex cursor-pointer items-center">
               Learn More
               <svg
                 fill="none"
@@ -94,7 +94,7 @@ export default function Section3() {
               Fingerstache flexitarian street art 8-bit waistcoat. Distillery
               hexagon disrupt edison bulbche.
             </p>
-            <a className="text-teal-600 hover:text-teal-800 inline-flex cursor-pointer items-center">
+            <a className="text-purple-600 hover:text-purple-800 inline-flex cursor-pointer items-center">
               Learn More
               <svg
                 fill="none"
@@ -110,7 +110,7 @@ export default function Section3() {
             </a>
           </div>
         </div>
-        <button className="flex mx-auto mt-16 text-white bg-teal-600 border-0 py-2 px-8 focus:outline-none hover:bg-teal-800 rounded cursor-pointer text-lg">
+        <button className="flex mx-auto mt-16 text-white bg-purple-600 border-0 py-2 px-8 focus:outline-none hover:bg-purple-800 rounded cursor-pointer text-lg">
           Button
         </button>
       </div>
