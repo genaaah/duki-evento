@@ -20,7 +20,7 @@ export default function Footer() {
           </a>
         </div>
 
-        <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-300">
+        <p className="animate-jump-in mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-300">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
           consequuntur amet culpa cum itaque neque.
         </p>
@@ -52,7 +52,7 @@ export default function Footer() {
               href="/"
             >
               {" "}
-              Rules{" "}
+              Services{" "}
             </a>
           </li>
 
@@ -62,13 +62,13 @@ export default function Footer() {
               href="/"
             >
               {" "}
-              Redes{" "}
+              Projets{" "}
             </a>
           </li>
         </ul>
 
         <ul className="mt-12 flex justify-center gap-6 md:gap-8">
-          <li>
+          <li className="animate-fade-down">
             <a
               href="/"
               rel="noreferrer"
@@ -91,7 +91,7 @@ export default function Footer() {
             </a>
           </li>
 
-          <li>
+          <li className="animate-fade-up">
             <a
               href="/"
               rel="noreferrer"
@@ -114,7 +114,7 @@ export default function Footer() {
             </a>
           </li>
 
-          <li>
+          <li className="animate-fade-down">
             <a
               href="/"
               rel="noreferrer"

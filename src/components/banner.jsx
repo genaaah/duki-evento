@@ -18,14 +18,14 @@ export default function Banner() {
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <a
-              className="block w-full rounded bg-purple-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-purple-800 focus:outline-none focus:ring active:bg-purple-500 sm:w-auto"
+              className="animate-fade-right block w-full rounded bg-purple-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-purple-800 focus:outline-none focus:ring active:bg-purple-500 sm:w-auto"
               href="#"
             >
               Contact
             </a>
 
             <a
-              className="block w-full bg-gray-300 rounded px-12 py-3 text-sm font-medium text-purple-700 shadow hover:text-purple-900 focus:outline-none focus:ring active:text-purple-500 sm:w-auto"
+              className="animate-fade-left block w-full bg-gray-300 rounded px-12 py-3 text-sm font-medium text-purple-700 shadow hover:text-purple-900 focus:outline-none focus:ring active:text-purple-500 sm:w-auto"
               href="#"
             >
               Learn More

@@ -1,39 +1,57 @@
+import { NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
+import Button from "./button";
 
 export default function Navbar() {
   return (
-    <header className="bg-white shadow sticky top-0">
+    <header className="bg-white shadow z-30 sticky top-0">
       <div className="max-w-screen-xl mx-auto flex items-center justify-between h-16 px-4 sm:px-6 lg:px-8">
-        <a href="#" className="flex items-center mb-4 h-full">
+        <a
+          href="#"
+          className="animate-fade-right flex items-center mb-4 h-full"
+        >
           <img src={logo} alt="Logo" className="w-20 object-contain" />
         </a>
 
-        <nav className="hidden md:flex space-x-6 items-center">
-          <a href="#" className="text-gray-500 hover:text-purple-600 transition">
+        <nav className="animate-fade-up hidden md:flex space-x-6 items-center">
+          <a
+            href="#"
+            className="text-gray-500 hover:text-purple-600 transition"
+          >
             About
           </a>
-          <a href="#" className="text-gray-500 hover:text-purple-600 transition">
+          <a
+            href="#"
+            className="text-gray-500 hover:text-purple-600 transition"
+          >
             Services
           </a>
-          <a href="#" className="text-gray-500 hover:text-purple-600 transition">
+          <a
+            href="#"
+            className="text-gray-500 hover:text-purple-600 transition"
+          >
             Projects
           </a>
         </nav>
 
-        <div className="flex items-center space-x-4">
+        <div className="animate-fade-left flex items-center space-x-4">
           <div className="sm:flex sm:space-x-4">
-            <a
-              href="#"
-              className="block rounded-md bg-purple-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-purple-700"
-            >
-              Login
-            </a>
-            <a
-              href="#"
-              className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-purple-600 transition hover:text-gray-600/75 sm:block"
-            >
-              Register
-            </a>
+            <NavLink to={"login"}>
+              <a
+                href="#"
+                className="block rounded-md bg-purple-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-purple-700"
+              >
+                Login
+              </a>
+            </NavLink>
+            <NavLink to={"register"}>
+              <a
+                href="#"
+                className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-purple-600 transition hover:text-gray-600/75 sm:block"
+              >
+                Register
+              </a>
+            </NavLink>
           </div>
 
           <button className="block md:hidden rounded bg-gray-100 p-2.5 text-gray-600 transition hover:text-gray-600/75">

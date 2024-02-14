@@ -16,7 +16,7 @@ export default function Section3() {
             food truck ugh squid celiac humblebrag.
           </p>
         </div>
-        <div className="flex flex-wrap">
+        <div className="animate-fade-up flex flex-wrap">
           <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
               Luna Park
@@ -110,7 +110,7 @@ export default function Section3() {
             </a>
           </div>
         </div>
-        <button className="flex mx-auto mt-16 text-white bg-purple-600 border-0 py-2 px-8 focus:outline-none hover:bg-purple-800 rounded cursor-pointer text-lg">
+        <button className="animate-jump flex mx-auto mt-16 text-white bg-purple-600 border-0 py-2 px-8 focus:outline-none hover:bg-purple-800 rounded cursor-pointer text-lg">
           Button
         </button>
       </div>
